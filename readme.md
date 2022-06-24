@@ -12,7 +12,7 @@ It only sends SYN packets, so it does not perform a complete 3-way handshake. If
 **UDP scanning**  
 For UDP scanning, it is assumed that the computer responds with an ICMP message of type 3, code 3 (port unreachable) when the port is closed. Other ports are considered as open.
 
-## Run
+## Installation
 ```
 ./scan {-i <interface>} -pu <port-ranges> -pt <port-ranges> [<domain-name> | <IP-address>]
 ```
